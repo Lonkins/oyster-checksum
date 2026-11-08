@@ -15,11 +15,11 @@ python3 oyster_checksum.py 1234567890
 # -> 123456789087
 
 # validate a full 12-digit number
-python3 oyster_checksum.py 1234 567890 87
+python3 oyster_checksum.py "1234 567890 87"
 # -> 123456789087  check digits OK
 ```
 
-Spaces and dashes in the input are ignored.
+Spaces and dashes in the input are ignored (quote the number if it contains spaces).
 
 ## The formula
 
